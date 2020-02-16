@@ -1,0 +1,25 @@
+{
+  "name": "authentication-electromon",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electromon ."
+  },
+  
+  
+  "devDependencies": {
+    "electron": "^8.0.0",
+    "electron-rebuild": "^1.10.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "electromon": "^1.0.10",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.0",
+    "nodemailer": "^6.4.2"
+  }
+}

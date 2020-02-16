@@ -1,0 +1,23 @@
+GET http://localhost:8000/users
+
+###
+
+POST http://localhost:8000/users/signin
+Content-Type: application/json
+
+{
+    "name": "yassine",
+    "password": "password",
+    "email": "yassine5255@gmail.com"
+}
+
+
+###
+
+POST http://localhost:8000/users/login
+Content-Type: application/json
+
+{
+    "name": "yassine",
+    "password": "password"
+}
